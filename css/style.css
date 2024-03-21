@@ -142,6 +142,7 @@ footer {
     text-align: center;
     background-color: #fff;
     z-index: 100;
+   
 }
 
 .column-box {
@@ -154,6 +155,31 @@ footer {
     text-align: center;
 }
 
+.headline-wrapper {
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+.underoverskrift {
+    font-size: 17px;
+}
+
+.headline-container {
+    font-size: 22px;
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.brødtekst {
+    text-align: left;
+}
+
+.content-link {
+    font-size: 12px;
+}
 .content-wrapper {
     width: 100%;
     padding: 30px;
@@ -163,9 +189,21 @@ footer {
 }
 
 .content-image {
-    width: 375px;
+    width: 400px;
     height: 468px;
 
+}
+
+.content-image-2 {
+    margin-top: 150px;
+    width: 375px;
+    height: 550px;
+}
+
+.content-image-3 {
+    width: 375px;
+    height: 550px;
+    margin-top: 50px;
 }
 
 .overskrift {
@@ -187,8 +225,9 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     z-index: 1;
+
 }
 
 .form-line {
@@ -200,11 +239,18 @@ footer {
 }
 
 .subscribe-form > button {
-    font-size: 20px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 10px;
     margin-top: 15px;
+    background-color: #DFAFAF;
+    border-radius: 20px;
+    
 }
-
+#subscribe-content {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
 #submissionMessage {
     display: none;
 }
