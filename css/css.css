@@ -1,0 +1,210 @@
+body {
+    font-family: 'Tienne', serif;
+    background-color:#F4F0EA ;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-wrapper {
+    min-height: 100vh;  
+    position: relative;
+}
+
+p {
+    margin:8px 0;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:15px 20px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.article-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-logo {
+    height: 80px;
+}
+
+.newsletter-subscribe-button {
+    background-color: #DFAFAF;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.header-link {
+    width: 1000px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    background-color: #80956D;
+    border-top: 1px solid #000;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    font-family: 'Tillana', sans-serif;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer-wrapper {
+    justify-content: space-between;
+    display: flex;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    
+}
+.footer-child {
+    width: 250px;
+
+}
+
+.footer-text {
+    text-align: center;
+    
+}
+
+.social {
+    display:flex;
+    font-family: 'Tienne', serif;
+    align-items: center;
+}
+
+.social-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.social-name {
+    margin:10px;
+}
+
+.footer-image-heart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.contact-spacer {
+    margin-left: 80px;
+}
+
+.recycle-foto {
+    width: 80px;
+}
+
+.nyeste-historier {
+    color: #000;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1000px;
+    margin-bottom: 220px;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.column-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-wrap {
+    width: 470px;
+    text-align: center;
+}
+
+.content-wrapper {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.content-image {
+    width: 375px;
+    height: 468px;
+
+}
+
+.overskrift {
+    position: sticky;
+    left: 200px
+}
+
+.content-subscribe {
+    background-image: url("../images/abonner.billede.jpg");
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+    z-index: 0;
+}
+
+.background-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.form-line {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.subscribe-form > button {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#submissionMessage {
+    display: none;
+}
