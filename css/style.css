@@ -240,10 +240,12 @@ footer {
 
 .subscribe-form > button {
     font-size: 15px;
+    color: #fff;
     padding: 10px;
     margin-top: 15px;
-    background-color: #DFAFAF;
+    background-color: #80956D;
     border-radius: 20px;
+    width: 100px;
     
 }
 #subscribe-content {
